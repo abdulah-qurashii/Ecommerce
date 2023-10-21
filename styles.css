@@ -1,0 +1,69 @@
+body {
+    background-image: url('images.jpg'); /* Replace 'background.jpg' with your image file */
+    background-size: cover;
+    animation: slide 20s infinite linear;
+}
+
+@keyframes slide {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 100% 0;
+    }
+}
+.card {
+    border: 2px solid #ccc; /* Border color */
+    border-radius: 10px; /* Border corner radius */
+    transition: border-color 0.3s; /* Transition effect for border color change */
+}
+
+.card:hover {
+    border-color: #007bff; /* Border color on hover */
+}
+.card-title,
+.card-text {
+    font-family: 'Arial', sans-serif; /* Change font family */
+    color: #333; /* Change text color */
+}
+
+.card-title {
+    font-size: 1.2em; /* Change font size for titles */
+    font-weight: bold; /* Make titles bold */
+}
+
+.card-text {
+    font-size: 1em; /* Change font size for descriptions */
+}
+.btn-primary {
+    background-color: #180202; /* Button background color */
+    border-color: #f0e6e6; /* Button border color */
+    transition: background-color 0.3s, border-color 0.3s; /* Transition effect for color change */
+}
+
+.btn-primary:hover {
+    background-color: #160207; /* Button background color on hover */
+    border-color: #ebe7e7; /* Button border color on hover */
+}
+.card-body {
+    background-color: #4389cf; /* Set the background color to gray */
+}
+.navbar {
+    background-color: #dc3545; /* Change navbar background color to red */
+}
+.navbar-nav.ml-auto .nav-item {
+    border-left: 1px solid #dc3545; /* Add a red border between items */
+}
+
+.navbar-nav.ml-auto .nav-link {
+    color: #fffafb !important; /* Change link color to red */
+}
+.jumbotron {
+    background-color: #966363; /* Set background color to white */
+}
+
+
+
+
+
+
